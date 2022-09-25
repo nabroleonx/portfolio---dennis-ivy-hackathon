@@ -50,7 +50,7 @@ export default function Home({ posts }) {
           </h1>
           <p className="mt-6 text-base text-justify text-zinc-600 dark:text-zinc-400">
             I’m Abel, a software designer and entrepreneur based in Ethiopia
-            City. I’m the co-founder of nibretad.com and working as a freelancer
+            . I’m the co-founder of nibretad.com and working as a freelancer
             to to different companies, where I develop simple automation tools
             like scraping scripts full-stack web apps.
           </p>
