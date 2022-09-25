@@ -38,8 +38,7 @@ export default function Home({ posts }) {
         </title>
         <meta
           name="description"
-          content="I’m Abel, a software designer and entrepreneur based in New York
-          City. I’m the co-founder of nibretad.com and working as a freelancer
+          content="I’m Abel, a software designer and entrepreneur based in Ethiopia. I’m the co-founder of nibretad.com and working as a freelancer
           to to different companies, where I develop simple automation tools
           like scraping scripts full-stack web apps."
         />
@@ -50,7 +49,7 @@ export default function Home({ posts }) {
             Software Developer based in Ethiopia.
           </h1>
           <p className="mt-6 text-base text-justify text-zinc-600 dark:text-zinc-400">
-            I’m Abel, a software designer and entrepreneur based in New York
+            I’m Abel, a software designer and entrepreneur based in Ethiopia
             City. I’m the co-founder of nibretad.com and working as a freelancer
             to to different companies, where I develop simple automation tools
             like scraping scripts full-stack web apps.
