@@ -77,7 +77,7 @@ export default function Home({ posts }) {
           </div>
           <div className="mt-4">
             <a
-              href="https://github.com/nabroleonx/Automated-file-organizer/files/9640109/Abel.Gashaw.-.Resume.pdf<a"
+              href="https://drive.google.com/file/d/19Y80HEhtbfMNvFvnDFGKBunZpeYz2Ujw/view?usp=sharing"
               className="mt-4 group transition text-zinc-700 dark:text-zinc-200 hover:text-sky-500 dark:hover:text-sky-500 cursor-pointer border border-zinc-300 dark:border-zinc-600 px-3 py-2 rounded hover:border-sky-500 dark:hover:border-sky-500"
             >
               Download Resume
