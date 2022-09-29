@@ -4,22 +4,18 @@ import Link from "next/link";
 import clsx from "clsx";
 
 import { Wrapper } from "../components/Wrapper";
-import {
-  TwitterIcon,
-  GitHubIcon,
-  LinkedInIcon,
-} from "../components/Icons";
+import { TwitterIcon, GitHubIcon, LinkedInIcon } from "../components/Icons";
 import avatarImage from "./assets/images/my-avatar.jpg";
 
 function Icons({ className, href, children, icon: Icon }) {
   return (
     <li className={clsx(className, "flex")}>
-      <Link href={href}>
+      <a href={href} className="flex">
         <>
           <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500" />
           <span className="ml-4">{children}</span>
         </>
-      </Link>
+      </a>
     </li>
   );
 }

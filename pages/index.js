@@ -20,11 +20,9 @@ function MailIcon(props) {
 function Icons({ className, href, icon: Icon }) {
   return (
     <li className={clsx(className, "flex")}>
-      <Link href={href}>
-        <>
-          <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500" />
-        </>
-      </Link>
+      <a href={href}>
+        <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500" />
+      </a>
     </li>
   );
 }
@@ -49,10 +47,10 @@ export default function Home({ posts }) {
             Software Developer based in Ethiopia.
           </h1>
           <p className="mt-6 text-base text-justify text-zinc-600 dark:text-zinc-400">
-            I’m Abel, a software designer and entrepreneur based in Ethiopia
-            . I’m the co-founder of nibretad.com and working as a freelancer
-            to to different companies, where I develop simple automation tools
-            like scraping scripts full-stack web apps.
+            I’m Abel, a software designer and entrepreneur based in Ethiopia .
+            I’m the co-founder of nibretad.com and working as a freelancer to to
+            different companies, where I develop simple automation tools like
+            scraping scripts, full-stack web apps.
           </p>
           <div className="mt-6 flex gap-6">
             <Icons
